@@ -1,7 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useState } from "react";
 import axios from "axios";
-import { FaMagnifyingGlass } from "react-icons/fa6";
 
 import Navbar from "@/components/schemepilot/Navbar";
 import SchemeForm from "@/components/schemepilot/SchemeForm";
