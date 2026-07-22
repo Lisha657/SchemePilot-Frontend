@@ -28,7 +28,7 @@ export default function Navbar() {
           </div>
           <div className="leading-tight">
             <div className="text-[15px] font-semibold tracking-tight text-foreground">SchemePilot</div>
-            <div className="text-xs text-muted-foreground">Government Benefits, Simplified</div>
+            <div className="text-xs text-muted-foreground">Government Benefits. Simplified</div>
           </div>
         </div>
         <div className="hidden items-center gap-6 text-sm text-muted-foreground md:flex">
