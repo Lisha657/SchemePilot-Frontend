@@ -1,7 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useState } from "react";
 import axios from "axios";
-import { FaMagnifyingGlass } from "react-icons/fa6";
 
 import Navbar from "@/components/schemepilot/Navbar";
 import SchemeForm from "@/components/schemepilot/SchemeForm";
@@ -138,8 +137,6 @@ function App() {
   const [schemes, setSchemes] = useState<any[]>(SAMPLE_SCHEMES);
   const [loading, setLoading] = useState(false);
   const [selectedScheme, setSelectedScheme] = useState<any>(null);
-  const [searchTerm, setSearchTerm] = useState("");
-  const [selectedCategory, setSelectedCategory] = useState("All");
   const [isSidebarOpen, setIsSidebarOpen] = useState(true);
   const [recommendation, setRecommendation] = useState<any>(SAMPLE_RECOMMENDATION);
 
@@ -179,12 +176,6 @@ function App() {
   const handleViewDetails = (scheme: any) => setSelectedScheme(scheme);
   const closeModal = () => setSelectedScheme(null);
 
-  const filteredSchemes = schemes.filter((scheme: any) => {
-    const matchesSearch = scheme.name?.toLowerCase().includes(searchTerm.toLowerCase());
-    const matchesCategory = selectedCategory === "All" || scheme.category === selectedCategory;
-    return matchesSearch && matchesCategory;
-  });
-
   return (
     <div className="min-h-dvh">
       <Navbar />
@@ -194,39 +185,16 @@ function App() {
 
       {!loading && schemes.length > 0 && (
         <section className="mx-auto w-[92%] max-w-6xl pb-20">
-          <div className="mb-6 flex flex-wrap items-center gap-3">
-            <div className="relative min-w-0 flex-1">
-              <FaMagnifyingGlass className="pointer-events-none absolute left-4 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
-              <input
-                type="text"
-                placeholder="Search schemes…"
-                className="h-12 w-full rounded-xl border border-input bg-card pl-11 pr-4 text-sm text-foreground outline-none transition placeholder:text-muted-foreground/70 focus:border-primary focus:ring-4 focus:ring-primary/15"
-                value={searchTerm}
-                onChange={(e) => setSearchTerm(e.target.value)}
-              />
-            </div>
-            <select
-              className="h-12 w-full shrink-0 rounded-xl border border-input bg-card px-4 text-sm text-foreground outline-none transition focus:border-primary focus:ring-4 focus:ring-primary/15 sm:w-56"
-              value={selectedCategory}
-              onChange={(e) => setSelectedCategory(e.target.value)}
-            >
-              <option>All</option><option>Education</option><option>Agriculture</option>
-              <option>Women</option><option>Health</option><option>Employment</option>
-              <option>Housing</option><option>Business</option><option>Disability</option>
-              <option>Senior Citizen</option>
-            </select>
-          </div>
-
           <div className="mb-6 flex items-baseline justify-between">
             <h3 className="text-xl font-semibold tracking-tight text-foreground">
-              {filteredSchemes.length} {filteredSchemes.length === 1 ? "scheme" : "schemes"} found
+              {schemes.length} {schemes.length === 1 ? "scheme" : "schemes"} found
             </h3>
             <span className="text-xs text-muted-foreground">Tailored to your profile</span>
           </div>
 
           <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {filteredSchemes.length > 0 ? (
-              filteredSchemes.map((scheme: any) => (
+            {schemes.length > 0 ? (
+              schemes.map((scheme: any) => (
                 <SchemeCard key={scheme.id} scheme={scheme} onViewDetails={handleViewDetails} />
               ))
             ) : (
