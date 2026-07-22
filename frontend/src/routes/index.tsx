@@ -143,7 +143,7 @@ function App() {
   const handleSearch = async (formData: any) => {
     setLoading(true);
     try {
-      const response = await axios.get("http://127.0.0.1:8000/eligible", {
+      const response = await axios.get("https://schemepilot.onrender.com/eligible", {
         params: {
           age: formData.age, income: formData.income, state: formData.state,
           occupation: formData.occupation, gender: formData.gender, category: formData.category,
@@ -156,7 +156,7 @@ function App() {
       setLoading(false);
 
       axios
-        .post("http://127.0.0.1:8000/recommend", { user: formData, schemes: eligibleSchemes })
+        .post("https://schemepilot.onrender.com/recommend", { user: formData, schemes: eligibleSchemes })
         .then((response) => setRecommendation(response.data.recommendation))
         .catch((error) => {
           console.error(error);
