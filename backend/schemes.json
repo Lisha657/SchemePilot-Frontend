@@ -1,0 +1,432 @@
+[
+  {
+    "id": 1,
+    "name": "eGrantz Scholarship",
+    "government": "Kerala Government",
+    "state": "Kerala",
+    "category": "Education",
+    "occupation": [
+      "Student"
+    ],
+    "ageMin": 17,
+    "ageMax": 30,
+    "incomeMax": 100000,
+    "description": "Scholarship for eligible students in Kerala.",
+    "benefits": [
+      "Tuition Fee",
+      "Maintenance Allowance"
+    ],
+    "documents": [
+      "Aadhaar",
+      "Income Certificate",
+      "Bank Passbook"
+    ],
+    "officialLink": "https://egrantz.kerala.gov.in/"
+  },
+  {
+    "id": 2,
+    "name": "National Scholarship Portal",
+    "government": "Central Government",
+    "state": "All India",
+    "category": "Education",
+    "occupation": [
+      "Student"
+    ],
+    "ageMin": 16,
+    "ageMax": 30,
+    "incomeMax": 250000,
+    "description": "Scholarships for students.",
+    "benefits": [
+      "Scholarship Amount"
+    ],
+    "documents": [
+      "Aadhaar",
+      "Income Certificate"
+    ],
+    "officialLink": "https://scholarships.gov.in/"
+  },
+  {
+    "id": 3,
+    "name": "PM Yasasvi Scholarship",
+    "government": "Central Government",
+    "state": "All India",
+    "category": "Education",
+    "occupation": [
+      "Student"
+    ],
+    "ageMin": 14,
+    "ageMax": 25,
+    "incomeMax": 250000,
+    "description": "Scholarship for eligible students.",
+    "benefits": [
+      "Financial Assistance"
+    ],
+    "documents": [
+      "Community Certificate"
+    ],
+    "officialLink": "https://yet.nta.ac.in/"
+  },
+  {
+    "id": 4,
+    "name": "AICTE Pragati Scholarship",
+    "government": "Central Government",
+    "state": "All India",
+    "category": "Education",
+    "occupation": [
+      "Student",
+      "Woman"
+    ],
+    "ageMin": 17,
+    "ageMax": 30,
+    "incomeMax": 800000,
+    "description": "Scholarship for girls in technical education.",
+    "benefits": [
+      "Scholarship"
+    ],
+    "documents": [
+      "Admission Proof"
+    ],
+    "officialLink": "https://www.aicte-india.org/"
+  },
+  {
+    "id": 5,
+    "name": "INSPIRE Scholarship",
+    "government": "Central Government",
+    "state": "All India",
+    "category": "Education",
+    "occupation": [
+      "Student"
+    ],
+    "ageMin": 17,
+    "ageMax": 25,
+    "incomeMax": 10000000,
+    "description": "Science scholarship.",
+    "benefits": [
+      "Annual Scholarship"
+    ],
+    "documents": [
+      "Academic Certificates"
+    ],
+    "officialLink": "https://online-inspire.gov.in/"
+  },
+  {
+    "id": 6,
+    "name": "PM Kisan Samman Nidhi",
+    "government": "Central Government",
+    "state": "All India",
+    "category": "Agriculture",
+    "occupation": [
+      "Farmer"
+    ],
+    "ageMin": 18,
+    "ageMax": 100,
+    "incomeMax": 10000000,
+    "description": "Income support for farmers.",
+    "benefits": [
+      "Direct Cash Transfer"
+    ],
+    "documents": [
+      "Land Records",
+      "Aadhaar"
+    ],
+    "officialLink": "https://pmkisan.gov.in/"
+  },
+  {
+    "id": 7,
+    "name": "PM Fasal Bima Yojana",
+    "government": "Central Government",
+    "state": "All India",
+    "category": "Agriculture",
+    "occupation": [
+      "Farmer"
+    ],
+    "ageMin": 18,
+    "ageMax": 100,
+    "incomeMax": 10000000,
+    "description": "Crop insurance.",
+    "benefits": [
+      "Crop Insurance"
+    ],
+    "documents": [
+      "Land Records"
+    ],
+    "officialLink": "https://pmfby.gov.in/"
+  },
+  {
+    "id": 8,
+    "name": "Kisan Credit Card",
+    "government": "Central Government",
+    "state": "All India",
+    "category": "Agriculture",
+    "occupation": [
+      "Farmer"
+    ],
+    "ageMin": 18,
+    "ageMax": 100,
+    "incomeMax": 10000000,
+    "description": "Credit for farmers.",
+    "benefits": [
+      "Low Interest Loan"
+    ],
+    "documents": [
+      "Land Records"
+    ],
+    "officialLink": "https://www.myscheme.gov.in/"
+  },
+  {
+    "id": 9,
+    "name": "Soil Health Card Scheme",
+    "government": "Central Government",
+    "state": "All India",
+    "category": "Agriculture",
+    "occupation": [
+      "Farmer"
+    ],
+    "ageMin": 18,
+    "ageMax": 100,
+    "incomeMax": 10000000,
+    "description": "Soil testing support.",
+    "benefits": [
+      "Free Soil Testing"
+    ],
+    "documents": [
+      "Land Details"
+    ],
+    "officialLink": "https://www.soilhealth.dac.gov.in/"
+  },
+  {
+    "id": 10,
+    "name": "Paramparagat Krishi Vikas Yojana",
+    "government": "Central Government",
+    "state": "All India",
+    "category": "Agriculture",
+    "occupation": [
+      "Farmer"
+    ],
+    "ageMin": 18,
+    "ageMax": 100,
+    "incomeMax": 10000000,
+    "description": "Organic farming promotion.",
+    "benefits": [
+      "Training",
+      "Financial Support"
+    ],
+    "documents": [
+      "Farmer ID"
+    ],
+    "officialLink": "https://pgsindia-ncof.gov.in/"
+  },
+  {
+    "id": 11,
+    "name": "Beti Bachao Beti Padhao",
+    "government": "Central Government",
+    "state": "All India",
+    "category": "Women",
+    "occupation": [
+      "Woman"
+    ],
+    "ageMin": 0,
+    "ageMax": 45,
+    "incomeMax": 10000000,
+    "description": "Girl child welfare.",
+    "benefits": [
+      "Awareness",
+      "Support"
+    ],
+    "documents": [
+      "Birth Certificate"
+    ],
+    "officialLink": "https://wcd.gov.in/"
+  },
+  {
+    "id": 12,
+    "name": "Sukanya Samriddhi Yojana",
+    "government": "Central Government",
+    "state": "All India",
+    "category": "Women",
+    "occupation": [
+      "Child",
+      "Woman"
+    ],
+    "ageMin": 0,
+    "ageMax": 10,
+    "incomeMax": 10000000,
+    "description": "Savings scheme for girl child.",
+    "benefits": [
+      "High Interest Savings"
+    ],
+    "documents": [
+      "Birth Certificate"
+    ],
+    "officialLink": "https://www.nsiindia.gov.in/"
+  },
+  {
+    "id": 13,
+    "name": "Mahila Samman Savings Certificate",
+    "government": "Central Government",
+    "state": "All India",
+    "category": "Women",
+    "occupation": [
+      "Woman"
+    ],
+    "ageMin": 18,
+    "ageMax": 100,
+    "incomeMax": 10000000,
+    "description": "Savings scheme for women.",
+    "benefits": [
+      "Secure Savings"
+    ],
+    "documents": [
+      "Identity Proof"
+    ],
+    "officialLink": "https://www.indiapost.gov.in/"
+  },
+  {
+    "id": 14,
+    "name": "STEP",
+    "government": "Central Government",
+    "state": "All India",
+    "category": "Women",
+    "occupation": [
+      "Woman"
+    ],
+    "ageMin": 18,
+    "ageMax": 60,
+    "incomeMax": 10000000,
+    "description": "Training for women.",
+    "benefits": [
+      "Skill Training"
+    ],
+    "documents": [
+      "Aadhaar"
+    ],
+    "officialLink": "https://wcd.gov.in/"
+  },
+  {
+    "id": 15,
+    "name": "ADIP Scheme",
+    "government": "Central Government",
+    "state": "All India",
+    "category": "Disability",
+    "occupation": [
+      "Person with Disability"
+    ],
+    "ageMin": 0,
+    "ageMax": 100,
+    "incomeMax": 300000,
+    "description": "Assistive devices.",
+    "benefits": [
+      "Assistive Aids"
+    ],
+    "documents": [
+      "Disability Certificate"
+    ],
+    "officialLink": "https://depwd.gov.in/"
+  },
+  {
+    "id": 16,
+    "name": "Unique Disability ID",
+    "government": "Central Government",
+    "state": "All India",
+    "category": "Disability",
+    "occupation": [
+      "Person with Disability"
+    ],
+    "ageMin": 0,
+    "ageMax": 100,
+    "incomeMax": 10000000,
+    "description": "UDID card.",
+    "benefits": [
+      "Single Disability ID"
+    ],
+    "documents": [
+      "Disability Certificate"
+    ],
+    "officialLink": "https://www.swavlambancard.gov.in/"
+  },
+  {
+    "id": 17,
+    "name": "Scholarship for Students with Disabilities",
+    "government": "Central Government",
+    "state": "All India",
+    "category": "Disability",
+    "occupation": [
+      "Student",
+      "Person with Disability"
+    ],
+    "ageMin": 15,
+    "ageMax": 35,
+    "incomeMax": 300000,
+    "description": "Scholarship for disabled students.",
+    "benefits": [
+      "Scholarship"
+    ],
+    "documents": [
+      "Disability Certificate"
+    ],
+    "officialLink": "https://scholarships.gov.in/"
+  },
+  {
+    "id": 18,
+    "name": "Deendayal Disabled Rehabilitation Scheme",
+    "government": "Central Government",
+    "state": "All India",
+    "category": "Disability",
+    "occupation": [
+      "Person with Disability"
+    ],
+    "ageMin": 0,
+    "ageMax": 100,
+    "incomeMax": 10000000,
+    "description": "Rehabilitation support.",
+    "benefits": [
+      "Rehabilitation"
+    ],
+    "documents": [
+      "Disability Certificate"
+    ],
+    "officialLink": "https://depwd.gov.in/"
+  },
+  {
+    "id": 19,
+    "name": "Indira Gandhi National Old Age Pension Scheme",
+    "government": "Central Government",
+    "state": "All India",
+    "category": "Senior Citizen",
+    "occupation": [
+      "Senior Citizen"
+    ],
+    "ageMin": 60,
+    "ageMax": 100,
+    "incomeMax": 10000000,
+    "description": "Old age pension.",
+    "benefits": [
+      "Monthly Pension"
+    ],
+    "documents": [
+      "Age Proof"
+    ],
+    "officialLink": "https://nsap.nic.in/"
+  },
+  {
+    "id": 20,
+    "name": "Atal Pension Yojana",
+    "government": "Central Government",
+    "state": "All India",
+    "category": "Senior Citizen",
+    "occupation": [
+      "Senior Citizen"
+    ],
+    "ageMin": 18,
+    "ageMax": 40,
+    "incomeMax": 10000000,
+    "description": "Pension scheme.",
+    "benefits": [
+      "Guaranteed Pension"
+    ],
+    "documents": [
+      "Bank Account"
+    ],
+    "officialLink": "https://www.npscra.nsdl.co.in/"
+  }
+]
