@@ -45,9 +45,6 @@ export default function SchemeForm({ onSearch }: { onSearch: (d: FormData) => vo
           <h2 className="text-3xl font-normal tracking-tight text-foreground md:text-4xl" style={{ fontFamily: "var(--font-display)" }}>
             Tell us about yourself
           </h2>
-          <p className="mt-2 text-sm text-muted-foreground">
-            We'll match you with schemes tailored to your profile. Takes 30 seconds.
-          </p>
         </div>
 
         <form onSubmit={handleSubmit} className="grid grid-cols-1 gap-4 md:grid-cols-2">
