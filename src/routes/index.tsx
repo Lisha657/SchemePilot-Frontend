@@ -4,7 +4,6 @@ import axios from "axios";
 import { FaMagnifyingGlass } from "react-icons/fa6";
 
 import Navbar from "@/components/schemepilot/Navbar";
-import Stats from "@/components/schemepilot/Stats";
 import SchemeForm from "@/components/schemepilot/SchemeForm";
 import SchemeCard from "@/components/schemepilot/SchemeCard";
 import DetailsModal from "@/components/schemepilot/DetailsModal";
@@ -85,7 +84,6 @@ function App() {
   return (
     <div className="min-h-dvh">
       <Navbar />
-      <Stats />
       <SchemeForm onSearch={handleSearch} />
 
       {loading && <Loader />}

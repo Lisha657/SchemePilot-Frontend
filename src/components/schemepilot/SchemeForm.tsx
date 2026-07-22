@@ -42,9 +42,6 @@ export default function SchemeForm({ onSearch }: { onSearch: (d: FormData) => vo
         className="animate-fade-in-up rounded-3xl border border-border bg-card p-6 shadow-[0_1px_0_rgba(0,0,0,0.02),0_30px_80px_-30px_rgba(15,45,30,0.2)] md:p-10"
       >
         <div className="mb-8 text-center">
-          <div className="mb-3 inline-flex items-center gap-1.5 rounded-full bg-accent px-2.5 py-1 text-xs font-medium text-accent-foreground">
-            Eligibility Check
-          </div>
           <h2 className="text-3xl font-normal tracking-tight text-foreground md:text-4xl" style={{ fontFamily: "var(--font-display)" }}>
             Tell us about yourself
           </h2>

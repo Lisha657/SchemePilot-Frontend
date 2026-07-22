@@ -41,10 +41,6 @@ export default function Navbar() {
       </nav>
 
       <div className="mx-auto max-w-4xl px-6 pb-20 pt-10 text-center md:pb-28 md:pt-16">
-        <div className="animate-fade-in-up mx-auto mb-5 inline-flex items-center gap-2 rounded-full border border-border bg-card/60 px-3 py-1 text-xs text-muted-foreground backdrop-blur">
-          <span className="h-1.5 w-1.5 rounded-full bg-primary" />
-          35+ schemes · 28 states · Free forever
-        </div>
         <h1
           className="animate-fade-in-up text-balance text-5xl font-normal leading-[1.05] tracking-tight text-foreground md:text-7xl"
           style={{ fontFamily: "var(--font-display)", animationDelay: "60ms" }}
@@ -55,7 +51,6 @@ export default function Navbar() {
           className="animate-fade-in-up mx-auto mt-5 max-w-xl text-pretty text-base text-muted-foreground md:text-lg"
           style={{ animationDelay: "120ms" }}
         >
-          A quieter way to find government schemes you actually qualify for.
           Powered by AI. Built for India.
         </p>
       </div>
