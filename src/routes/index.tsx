@@ -137,8 +137,6 @@ function App() {
   const [schemes, setSchemes] = useState<any[]>(SAMPLE_SCHEMES);
   const [loading, setLoading] = useState(false);
   const [selectedScheme, setSelectedScheme] = useState<any>(null);
-  const [searchTerm, setSearchTerm] = useState("");
-  const [selectedCategory, setSelectedCategory] = useState("All");
   const [isSidebarOpen, setIsSidebarOpen] = useState(true);
   const [recommendation, setRecommendation] = useState<any>(SAMPLE_RECOMMENDATION);
 
