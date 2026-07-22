@@ -187,14 +187,14 @@ function App() {
         <section className="mx-auto w-[92%] max-w-6xl pb-20">
           <div className="mb-6 flex items-baseline justify-between">
             <h3 className="text-xl font-semibold tracking-tight text-foreground">
-              {filteredSchemes.length} {filteredSchemes.length === 1 ? "scheme" : "schemes"} found
+              {schemes.length} {schemes.length === 1 ? "scheme" : "schemes"} found
             </h3>
             <span className="text-xs text-muted-foreground">Tailored to your profile</span>
           </div>
 
           <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {filteredSchemes.length > 0 ? (
-              filteredSchemes.map((scheme: any) => (
+            {schemes.length > 0 ? (
+              schemes.map((scheme: any) => (
                 <SchemeCard key={scheme.id} scheme={scheme} onViewDetails={handleViewDetails} />
               ))
             ) : (
